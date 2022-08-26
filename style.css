@@ -16,7 +16,7 @@ body {
 .sidebar{
     position: fixed;
     height: 100%;
-    width: 250px;
+    width: 275px;
     background: rgb(0, 0, 0);
     top: 0;
     left: 0;
@@ -33,7 +33,7 @@ body {
 }
  .logo_content .logo i{
     font-size: 28px;
-    margin-right: 8px;
+    margin-right: 5px;
 
 }
  .logo_content .logo_name{
@@ -43,5 +43,62 @@ body {
 .sidebar #btn{
     position: absolute;
     color: white;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform:translateX(-50%);
 
+}
+.sidebar ul{
+    margin-top: 20px;
+
+}
+.sidebar ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+   /index.html
+}
+.sidebar ul li input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #1d1b31;
+    padding-left: 50px;
+    font-size: 18px;
+    color: white;
+}
+.sidebar ul li .bx-search{
+    position: absolute;
+}
+
+.sidebar ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 10px;
+}
+.sidebar ul li a:hover{
+    color: ;
+    background: white;
+}
+.sidebar ul li a i{
+    height: 50px;
+    line-height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    text-align: center;
 }
