@@ -79,12 +79,16 @@ body {
     font-size: 18px;
     color: white;
 }
-.sidebar ul li .bx-search{
+.sidebar ul li .bx-search-alt{
     position: absolute;
+    z-index: 99;
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 22px;
 }
 
 .sidebar ul li a{
-    color: white;
+    color: green;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -92,7 +96,7 @@ body {
     border-radius: 10px;
 }
 .sidebar ul li a:hover{
-    color: ;
+    color: #11101d;
     background: white;
 }
 .sidebar ul li a i{
@@ -102,3 +106,13 @@ body {
     border-radius: 12px;
     text-align: center;
 }
+.sidebar .profile_content{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+}
+.sidebar .profile_content .profile{
+    position: relative;
+    padding: 10px 6px;
+    
