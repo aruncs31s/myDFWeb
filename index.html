@@ -26,44 +26,44 @@
                         <i class='bx bx-search-alt'></i>
                         <input placeholder="Search..?" type="text">
                     </a>
-                    <!--<span class="links_name">Dashboard</span>-->
+                    <span class="tooltip">Search</span>-->
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bxl-visual-studio' ></i>
                         <span class="links_name">Project</span>
                     </a>
-                    <!--<span class="links_name">Dashboard</span>-->
+                    <span class="tooltip">Project</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bxs-user-voice' ></i>
                         <span class="links_name">Seminar</span>
                     </a>
-                    <!--<span class="links_name">Dashboard</span>-->
+                    <span class="tooltip">Seminar</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-code-block' ></i>
                         <span class="links_name">Codes</span>
                     </a>
-                    <!--<span class="links_name">Dashboard</span>-->
+                    <span class="tooltip">Codes</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-folder' ></i>
                         <span class="links_name">Files</span>
                     </a>
-                    <!--<span class="links_name">Dashboard</span>-->
+                    <span class="tooltip">Files</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bxs-grid-alt' ></i>
                         <span class="links_name">About</span>
                     </a>
-                    <!--<span class="links_name">Dashboard</span>-->
-               <!--- </li>
-                 <li>
+                    <span class="tooltip">About</span>
+               </li>
+                <!--- <li>
                     <a href="#">
                         <i class='bx bxs-grid-alt' ></i>
                         <span class="links_name">Dashboard</span>
@@ -82,7 +82,7 @@
             <div class="profile_content">
             <div class="profile">
                 <div class="profile_details">
-                   <!-- <img src="./images/photo-1514888286974-6c03e2ca1dba.webp" alt="">-->
+                   <img src="./images/photo-1514888286974-6c03e2ca1dba.webp" alt="">
                    <div class="name_job">
                     <div class="name">Arun CS</div>
                     <div class="job">Study</div>
@@ -93,6 +93,23 @@
             </div>
         </div>
     </body>
+    <div class="main_content">
+        <div class="text">
+            myDFWeb
+        </div>
+    </div>
+    <script>
+
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search-alt")
+        btn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }
+        searchBtn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }
+    </script>
 
 
 
