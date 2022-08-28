@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/dartFlutterSeminarRepor.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+            <i class='bx bx-code-block' ></i>
+            <div class="logo_name">myDFWeb</div>
+            </div>
+        </div>
+        <i class='bx bx-menu' id="btn" ></i>
+        <ul class="nav_list">
+            <li>
+                <a href="#">
+                    <i class='bx bx-list-ol' ></i>
+                </a>
+                <span class="tooltip">Chapters</span>-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxl-visual-studio' ></i>
+                    <span class="links_name">INTRODUCTION</span>
+                </a>
+                <span class="tooltip">INTRODUCTION</span>
+            </li>
+            <li>
+                <a href="./dartFlutter/dartFlutter.html">
+                    <i class='bx bxs-user-voice' ></i>
+                    <span class="links_name">DART AND FLUTTER</span>
+                </a>
+                <span class="tooltip">DART AND FLUTTER</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-code-block' ></i>
+                    <span class="links_name">USAGE</span>
+                </a>
+                <span class="tooltip">Codes</span>
+            </li>
+            <li>
+                <a href="https://github.com/aruncs31s/myDFWeb">
+                    <i class='bx bx-folder' ></i>
+                    <span class="links_name">Files</span>
+                </a>
+                <span class="tooltip">Files</span>
+            </li>
+            <li>
+                <a href="./about/index.html">
+                    <i class='bx bxs-grid-alt' ></i>
+                    <span class="links_name">About</span>
+                </a>
+                <span class="tooltip">About</span>
+           </li>
+             <li>
+                <a href="#">
+                    <i class='bx bxs-grid-alt' ></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="links_name">Dashboard</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-grid-alt' ></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="links_name">Dashboard</span>
+            </li>
+            
+        </ul>
+        
+        <div class="profile_content">
+        <div class="profile">
+            <div class="profile_details">
+                <a href="https://github.com" alt="">
+                <img src="./images/photo-1514888286974-6c03e2ca1dba.webp" alt="">
+               
+               <div class="name_job">
+                <div class="name">Arun CS</div>
+                <div class="job">Study</div>
+               </div>
+            </a>
+               <i class='bx bx-log-out' id="log-out"></i>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="report">
+        <div class="chapters">
+                <a href="#introduction"><h3>INTRODUCTION</h3></a>
+                <a href="#dart"><h3>DART</h3></a>
+                <a href="#flutter"><h3>FLUTTER</h3></a>
+              <!--  <a href="#introfuction"><h3>INTRODUCTION</h3></a>
+                <a href="#introfuction"><h3>INTRODUCTION</h3></a>
+                <a href="#introfuction"><h3>INTRODUCTION</h3></a>
+              -->
+                
+        </div>
+
+    </div>
+    <section class="introduction" id="introduction">
+        <div class="introduction-title">INTRODUCTION</div>
+
+
+    <div class="introduction-p"><p>A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
+
+    Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages. Since the early 1800s, programs have been used to direct the behavior of machines such as Jacquard looms, music boxes and player pianos.[1]
+    
+    Thousands of different programming languages have been created, and more are being created every year. Many programming languages are written in an imperative form (i.e., as a sequence of operations to perform) while other languages use the declarative form (i.e. the desired result is specified, not how to achieve it).
+    
+    The description of a programming language is usually split into the two components of syntax (form) and semantics (meaning), which are usually defined by a formal language. Some languages are defined by a specification document (for example, the C programming language is specified by an ISO Standard) while other languages
+    (such as Perl) have a dominant implementation that is treated as a reference. Some languages have both, with the basic language defined by a standard and extensions taken from the dominant implementation being common. 
+    </p></div>
+    <br />
+
+
+
+    </section>
+    <section class="dart" id="dart">    
+        <div class="dart-title"><h1>DART</h1></div>
+    <p>
+        Dart is a programming language designed for client development,[8][9] such as for the web and mobile apps. It is developed by Google and can also be used to build server and desktop applications.
+
+        It is an object-oriented, class-based, garbage-collected language with C-style syntax.[10] It can compile to either native code or JavaScript, and supports interfaces, mixins, abstract classes, reified generics and type inference
+    </p>`
+    </section>
+
+
+    <script>
+
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-list-ol")
+        btn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }
+        searchBtn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
